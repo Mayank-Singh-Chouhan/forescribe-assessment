@@ -10,7 +10,7 @@ const Card = ({ logo, title, details, tag, btn }) => {
         <div className="flex flex-col w-auto">
           <div className="flex gap-[10px]">
             <h3 className="font-[500] text-[18px] text-[#19154E]">{title}</h3>
-            {tag && <div className="flex px-[12px] py-[6px] rounded-[5px] bg-slate-300">
+            {tag && <div className="flex px-[12px] py-[6px] rounded-[5px] bg-[rgba(152,103,234,.2)]">
               <Image src={tag} width={37} height={13} alt="icon" unoptimized />
             </div>}
           </div>

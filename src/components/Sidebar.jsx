@@ -6,11 +6,11 @@ const Sidebar = () => {
     return (
         <div className="bg-white flex flex-col justify-between h-screen w-[280px] border sticky top-0 bottom-0 left-0">
 
-            <div className="flex flex-col gap-[39px] overflow-y-scroll">
+            <div className="h-[70px] border-b-[1px] flex justify-center items-center">
+                <Image src="assets/sidebar/Logo.svg" height={34} width={146} alt="Logo" />
+            </div>
 
-                <div className="h-[70px] border-b-[1px] flex justify-center items-center">
-                    <Image src="assets/sidebar/Logo.svg" height={34} width={146} alt="Logo" />
-                </div>
+            <div className="flex flex-col gap-[39px] overflow-y-scroll">
 
                 <div className="text-[#19154E] w-full flex flex-col items-center">
 
