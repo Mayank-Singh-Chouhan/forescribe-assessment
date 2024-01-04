@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Navbar = () => {
     return (
-        <nav className="sticky top-0">
+        <nav className="sticky top-0 z-10">
             <div className="bg-white h-[70px] flex flex-row justify-between items-center px-[27px] border-b-[1px]">
 
                 <div className="flex flex-row flex-1 gap-[33px]">
