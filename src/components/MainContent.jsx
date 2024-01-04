@@ -2,19 +2,10 @@ import Image from "next/image";
 import Card from "./Card";
 import { mc_integration, mc_accounting, mc_engagement } from "../constants/index";
 
-
-
-
-
-
-
-
-
-
 const MainContent = () => {
     return (
         <div className="flex-1 flex justify-center">
-            <div className="w-[75%] py-[31px]">
+            <div className="w-[75%] pt-[31px] pb-[267px]">
 
                 <div className="flex flex-col mb-[47px]">
                     <h1 className="font-[600] text-[#19154E] text-[28px] cursor-default">
@@ -37,7 +28,7 @@ const MainContent = () => {
 
                         {mc_integration.map((ele) => {
                             return (
-                                <Card title={ele.title} details={ele.detail} tag={ele.tag} btn={ele.btn}/>
+                                <Card logo={ele.logo} title={ele.title} details={ele.detail} tag={ele.tag} btn={ele.btn}/>
                             );
                         })}
 
@@ -52,7 +43,7 @@ const MainContent = () => {
 
                         {mc_accounting.map((ele) => {
                             return (
-                                <Card title={ele.title} details={ele.detail} tag={ele.tag} btn={ele.btn}/>
+                                <Card logo={ele.logo} title={ele.title} details={ele.detail} tag={ele.tag} btn={ele.btn}/>
                             );
                         })}
 
@@ -65,10 +56,9 @@ const MainContent = () => {
                             <Image src={"assets/main/quesion-icon.svg"} height={18} width={18} alt="info" unoptimized/>
                         </div>
 
-                        {/* {NamedNodeMap} */}
                         {mc_engagement.map((ele) => {
                             return (
-                                <Card title={ele.title} details={ele.detail} tag={ele.tag} btn={ele.btn}/>
+                                <Card logo={ele.logo} title={ele.title} details={ele.detail} tag={ele.tag} btn={ele.btn}/>
                             );
                         })}
 

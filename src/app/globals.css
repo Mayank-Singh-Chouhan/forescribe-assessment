@@ -6,4 +6,15 @@
 
 * {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+.card_background {
+    background: linear-gradient(90deg,
+            rgba(239, 239, 239, 0.5) 23.55%,
+            rgba(255, 255, 255, 0) 78.35%);
 }

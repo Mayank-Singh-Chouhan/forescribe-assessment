@@ -19,7 +19,7 @@ const Tag = () => {
         <Image src={"assets/main/cs-2.svg"} width={21} height={22} alt="hightlight" unoptimized/>
       </div>
 
-      <span>Coming soon</span>
+      <span className="whitespace-nowrap">Coming soon</span>
 
       <div className="absolute right-0 bottom-[-12px]">
         <Image src={"assets/main/cs-1.svg"} width={16} height={13} alt="hightlight" unoptimized/>

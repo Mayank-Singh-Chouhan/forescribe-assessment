@@ -37,6 +37,7 @@ export const settings_info = [
 export const mc_integration = [
     {
         id: 1,
+        logo: "assets/sidebar/integration_google.svg",
         tag: "assets/main/identity-svg.svg",
         title: "Google Workspace",
         detail: "Setup Google Workspace with one-click to work flawlessly with Forescribe",
@@ -44,6 +45,7 @@ export const mc_integration = [
     },
     {
         id: 2,
+        logo: "assets/sidebar/integration_office.svg",
         tag: "assets/main/identity-svg.svg",
         title: "Office 365",
         detail: "Setup Office 365 if your organization depends on it as an Identity provider",
@@ -54,6 +56,7 @@ export const mc_integration = [
 export const mc_accounting = [
     {
         id: 1,
+        logo: "assets/sidebar/integration_xero.svg",
         tag: "assets/main/identity-svg.svg",
         title: "Xero",
         detail: "Gather actionable information for every known Application that persists in your books",
@@ -61,6 +64,7 @@ export const mc_accounting = [
     },
     {
         id: 2,
+        logo: "assets/sidebar/integration_quickbook.svg",
         tag: "assets/main/identity-svg.svg",
         title: "Quickbooks",
         detail: "Organize your App spend and gather actionable insights to make informed decisions",
@@ -68,6 +72,7 @@ export const mc_accounting = [
     },
     {
         id: 3,
+        logo: "assets/sidebar/integration_csv.svg",
         tag: "assets/main/identity-svg.svg",
         title: "CSV",
         detail: "Manually upload your transaction data every month and stay aware of your App spend and usage",
@@ -78,7 +83,7 @@ export const mc_accounting = [
 export const mc_engagement = [
     {
         id: 1,
-       
+        logo: "assets/sidebar/integration_zoom.svg",
         title: "Zoom",
         btn: false,
         tag: "",
@@ -86,6 +91,7 @@ export const mc_engagement = [
     },
     {
         id: 2,
+        logo: "assets/sidebar/integration_slack.svg",
         title: "Slack",
         btn: false,
         tag: "",
@@ -93,6 +99,7 @@ export const mc_engagement = [
     },
     {
         id: 3,
+        logo: "assets/sidebar/integration_jira.svg",
         icon: "",
         title: "Jira",
         btn: false,

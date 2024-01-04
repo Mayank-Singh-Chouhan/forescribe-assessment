@@ -3,7 +3,7 @@ import Image from "next/image";
 const Navbar = () => {
     return (
         <nav className="sticky top-0">
-            <div className="bg-white h-[70px] flex flex-row justify-between items-center px-[27px] border-[1px]">
+            <div className="bg-white h-[70px] flex flex-row justify-between items-center px-[27px] border-b-[1px]">
 
                 <div className="flex flex-row flex-1 gap-[33px]">
                     <Image src="assets/navbar/3671842_question_icon 4.svg" alt="Image" height={24} width={24} unoptimized />
