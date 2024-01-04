@@ -4,13 +4,13 @@ import MenuButton from "./MenuButton";
 
 const Sidebar = () => {
     return (
-        <div className="bg-white flex flex-col justify-between h-screen w-[280px] border sticky top-0 bottom-0 left-0">
+        <div className="bg-white flex flex-col justify-between h-screen w-[280px] border-r sticky top-0 bottom-0 left-0">
 
-            <div className="h-[70px] border-b-[1px] flex justify-center items-center">
+            <div className="h-[70px] w-full border-b-[1px] flex justify-center items-center">
                 <Image src="assets/sidebar/Logo.svg" height={34} width={146} alt="Logo" />
             </div>
 
-            <div className="flex flex-col gap-[39px] overflow-y-scroll">
+            <div className="flex flex-col mb-auto pt-[39px] overflow-y-scroll">
 
                 <div className="text-[#19154E] w-full flex flex-col items-center">
 
@@ -37,6 +37,7 @@ const Sidebar = () => {
                     </div>
                     
                 </div>
+
             </div>
 
             <div>
