@@ -14,7 +14,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex flex-1 justify-end flex-row gap-[30px]">
-                    <div className="flex text-[#8B3DFF] bg-[#F6F0FF] gap-[10px] px-[20px] py-[8px]">
+                    <div className="flex text-[#8B3DFF] rounded-[5px] bg-[#F6F0FF] gap-[10px] px-[20px] py-[8px]">
                         <Image src="assets/navbar/Group 45.svg" alt="Invite" height={16} width={22} unoptimized />
                         <span>Invite members</span>
                     </div>
